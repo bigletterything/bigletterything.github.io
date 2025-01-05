@@ -1,65 +1,73 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+        font-size: 14pt;
+        background-color: rgb(199, 225, 255);
+        background-image: url("x-tile.png");
+      }
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif">
-  <style>
-    body {
-      font-family: 'PT Serif',
-        serif;
-      font-size: 14pt;
-      color: rgb(231, 233, 234);
-      background-color: rgb(29, 30, 40);
-    }
+      .center-wrap {
+        padding: 20vh 10% 0 10%;
+        max-width: 30em;
+      }
 
-    .center-wrap {
-      padding: 200px 10% 0 10%;
-      max-width: 30em;
-    }
+      .center-wrap div {
+        padding-bottom: 24pt;
+      }
 
-    .center-wrap div {
-      padding-bottom: 24pt;
-    }
+      .highlighted {
+        background: linear-gradient(
+          to top,
+          rgba(105, 218, 255, 0.58) 0.4em,
+          transparent 0.5em
+        );
+      }
 
-    a {
-      font-weight: 800;
-      text-decoration: underline;
-      color: whitesmoke;
-      background: linear-gradient(to top, rgba(105, 218, 255, 0.58) 0.4em, transparent 0.5em);
-    }
+      a {
+        font-weight: 600;
+        text-decoration: underline;
+        color: #121d70;
+        background: linear-gradient(
+          to top,
+          rgba(105, 218, 255, 0.58) 0.4em,
+          transparent 0.5em
+        );
+      }
 
-    div.bolder {
-      font-size: 18pt;
-      font-weight: 600;
-      padding-bottom: 24pt;
-      padding-top: 18pt;
-    }
+      div.bolder {
+        font-size: 18pt;
+        font-weight: 700;
+        padding-bottom: 24pt;
+        padding-top: 18pt;
 
-    img.profile {
-      width: 120px;
-    }
-  </style>
-  <title>Big Lettery Thing | consulting, product management, growth </title>
-</head>
+        a {
+          font-weight: 900;
+        }
+      }
 
-<body>
-  <div class="center-wrap">
-    <img src="sando-t.png" class="profile">
-    <div class="bolder">
-      Big Lettery Thing is a tech-focused product consulting firm.
+      img.profile {
+        width: 120px;
+      }
+    </style>
+    <title>Big Lettery Thing | consulting, product management, growth</title>
+  </head>
+
+  <body>
+    <div class="center-wrap">
+      <img src="4x.png" class="profile" />
+      <div class="bolder">
+        Big Lettery Thing does
+        <a href="mailto:hello@bigletterything.com">consulting</a>.
+      </div>
     </div>
-    <div>
-      We do whatever it takes to
-      create great products. We write code, we create strategies, we optimize landing pages and run A/B tests; whatever
-      you need.
-    </div>
-    <div>
-      If you'd like to work together, send an email to ryan@ this domain</a>.
-    </div>
-    <div>
-      Thanks!
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
