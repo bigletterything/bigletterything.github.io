@@ -16,6 +16,11 @@
     <link rel="manifest" href="/site.webmanifest" />
     <style>
       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
         font-family: "Lato", sans-serif;
         font-size: 14pt;
         background-color: rgb(199, 225, 255);
@@ -23,12 +28,10 @@
       }
 
       .center-wrap {
-        padding: 10vh 10% 0 10%;
-        max-width: 30em;
-      }
-
-      .center-wrap div {
-        padding-bottom: 24pt;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       }
 
       .highlighted {
